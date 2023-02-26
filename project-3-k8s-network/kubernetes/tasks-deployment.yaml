@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tasks
-          image: mrzvuz/kube-tasks-api:latest
+          image: mrzvuz/kube-tasks-api:v1.0.0
           env:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"

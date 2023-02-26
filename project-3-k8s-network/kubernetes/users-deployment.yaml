@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: users
-          image: mrzvuz/kube-users-api:latest
+          image: mrzvuz/kube-users-api:v1.0.0
           env:
             - name: AUTH_ADDRESS
               # value: "10.99.104.252"

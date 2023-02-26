@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: auth
-          image: mrzvuz/kube-auth-api:latest
+          image: mrzvuz/kube-auth-api:v1.0.0
